@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  <header>
+    <h1>Meu Portfolio</h1>
+    <p>Bem vindo ao meu portfolio! Aqui estao alguns dos meus projetos.</p>
+    <header>
+        <section id="projetos"> 
+            <div class="projeto">
+                <h2>Projeto 1</h2>
+                <p>este e o meu portfolio</p>
+                <img src="pictures/imagem1.jpg" alt="imagem do projeto 1">
+            </div>
+            <div class="projeto">
+            <h2>Projeto 2</h2>
+            <p>aqui tem tudo que voce precisa saber sobre os meus projetos.</p>
+            <img src="pictures/imagem2.png" alt="imagem do projeto 2">
+            <div>
+        </section>  
+        <style>
+            body{
+                font-family:Arial,sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            header{
+                text-align: center;
+                padding: 20px;
+                background-color: #333;
+                color: #fff;
+            }
+            #projetos{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
+            .projeto{
+                width: 300px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                overflow: hidden;
+                text-align: center;
+                background-color: #f9f9f9;
+            }
+            .projeto img{
+                width: 100%;
+                height: auto;
+            }
+            .projeto h2{
+                font-size: 1.5em;
+                color: #333;
+            }
+            .projeto p{
+                padding: 10px;
+                font-size: 1em;
+                color: #666;
+            }
+            footer{
+                text-align: center;
+                padding: 10px;
+                background-color: #333;
+                color: #fff;
+                width: 100%;
+            }
+        </style>
+</body>
+</html>
